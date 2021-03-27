@@ -614,7 +614,12 @@
 <p>　　fakeplayers.canseehidden -显示假玩家</p>
 <p>　　fakeplayers.red - 将获得权限的玩家名变为红色</p>
 <p>　　fakeplayers.unlock - 忽略服务器锁定</p>
-<h2 id="ChestCommands菜单教程"><a href="#ChestCommands菜单教程" class="headerlink" title="ChestCommands菜单教程"></a>ChestCommands菜单教程</h2><p>准备工具ChestCommands插件,由edcsg开发的”树形图制作者2.9正式版 —— ChestCommands 与 BossShop 可视的菜单”<br>下载: <a href="https://www.mcbbs.net/thread-542949-1-3.html" target="_blank" rel="noopener">Writing</a><br>当你打开程序的时候你就会了😊</p>
+<h2 id="ChestCommands菜单教程"><a href="#ChestCommands菜单教程" class="headerlink" title="ChestCommands菜单教程"></a>ChestCommands菜单教程</h2><p>准备工具ChestCommands插件,由edcsg开发的”树形图制作者2.9正式版 —— ChestCommands 与 BossShop 可视的菜单”<br>下载: <a href="https://www.mcbbs.net/thread-542949-1-3.html" target="_blank" rel="noopener">可视的菜单</a><br>当你打开程序的时候你就会了😊</p>
+<h2 id="浮空字插件-Holographic-Displays"><a href="#浮空字插件-Holographic-Displays" class="headerlink" title="浮空字插件 Holographic Displays"></a>浮空字插件 Holographic Displays</h2><p>目前功能:</p>
+<p>创建浮空的文本<br>悬空的物品<br>可以简单快速的使用<br>为开发人员提供的简易API<br>只需要一个命令就可以将图片转换成全息影像<br>你可以创建酷炫的动画效果字体/图片<br>使用&amp;u代码可以创建闪烁字体<br>支持任何的UTF-8编码的特殊字符<br>可以显示在线人数,包括BungeeCord(多个BungeeCord也支持)<br>支持Spigot/CB 1.6.4-1.8,MCPC+ 1.6.4-1.7<br>使用教程:</p>
+<p>/hd help 显示所有的HD相关指令<br>如何安装:<br>将你下载的 HolographicDisplays.jar 丢入服务器的plugins文件夹内<br>重启你的服务器<br>创建一个简单的全息影像<br>当你在服务器是OP,或者拥有相关权限的时候<br>/hd create &lt;编号&gt; &lt;内容(可以用字体代码)&gt;   创建一个全息影像,并且第一行显示为&lt;内容&gt;<br>/hd addline &lt;编号&gt; &lt;内容&gt;   添加&lt;内容&gt;到&lt;编号&gt;全息影像中的下一行<br>/hd removeline &lt;编号&gt; &lt;行数&gt;   移除&lt;编号&gt;的第&lt;行数&gt;内容<br>创建一个从图片导入的全息影像<br>首先,你需要上传一张PNG图片(最好不要太大)，到插件文件夹目录下。(/plugins/HolographicDisplays/)<br>/hd create &lt;编号&gt;<br>/hd edit &lt;编号&gt;<br>/hd readimage &lt;编号&gt; &lt;图片名称&gt;.png &lt;长宽&gt;<br>例子:/hd readimage a-1 test.png 10<br>注意,&lt;长款&gt;最大为100<br>创建一个现实在线玩家个数的全息影像<br>/hd addline &lt;编号&gt; &amp;a&amp;l在线人数:&amp;b&amp;l{online}<br>移除一个全息影像<br>/hd delete &lt;编号&gt;<br>符号</p>
+<p>默认符号<br>?  [x] = █<br>?  [/] = ▌<br>?  [.] = ?<br>?  [..] = ?<br>?  […] = ▓<br>?  [p] = ?<br>?  [|] = ? (thin vertical bar)<br>如何自定义符号:<br>打开“placeholders.yml”。按照格式,一行一个进行添加。</p>
+<p>1)  选择一个符号 (点击我前往一个有帮助的网站)<br>2)  找到代码<br>3)  按照格式添加<br>4)  将文本保存,重载插件</p>
 
             </div>
             <hr/>
@@ -723,7 +728,7 @@
         clientSecret: '914b81d3203bc8049e58b2bd82819ed8297b115f',
         repo: 'Pinglun233',
         owner: 'fspep',
-        admin: ["FSP"],
+        admin: "fspep",
         id: '2021-03-21T13-07-33',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
